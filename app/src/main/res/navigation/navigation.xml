@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="org.d3if0044.bangundatar.ui.MenuFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_menu">
+    <action
+        android:id="@+id/action_menuFragment_to_hasilFragment"
+        app:destination="@id/hasilFragment" />
+        <argument
+            android:name="kategori"
+            app:argType="org.d3if0044.bangundatar.data.KategoriBangunDatar" />
+        <action
+            android:id="@+id/action_menuFragment_to_historiFragment"
+            app:destination="@id/historiFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/hasilFragment"
+        android:name="org.d3if0044.bangundatar.ui.HasilFragment"
+        android:label="@string/lihat_hasil"
+        tools:layout="@layout/fragment_hasil">
+        <argument
+            android:name="kategori"
+            app:argType="org.d3if0044.bangundatar.data.KategoriBangunDatar" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="org.d3if0044.bangundatar.ui.AboutFragment"
+        android:label="@string/tentang_aplikasi"
+        tools:layout="@layout/fragment_about"/>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="org.d3if0044.bangundatar.ui.HomeFragment"
+        android:label="@string/fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_universitasFragment"
+            app:destination="@id/universitasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/universitasFragment"
+        android:name="org.d3if0044.bangundatar.ui.UniversitasFragment"
+        android:label="@string/daftar_universitas"
+        tools:layout="@layout/fragment_universitas" />
+    <fragment
+        android:id="@+id/historiFragment"
+        android:name="org.d3if0044.bangundatar.ui.HistoriFragment"
+        android:label="@string/histori"
+        tools:layout="@layout/fragment_histori" />
+</navigation>

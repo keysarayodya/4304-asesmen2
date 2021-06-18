@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Bangun Datar</string>
+    <string name="bd_intro">Bangun datar merupakan sebutan untuk bangun-bangun dua dimensi.
+        Bangun datar merupakan sebuah bidang datar yang dibatasi oleh garis lurus ataupun garis lengkung.</string>
+    <string name="panjang">Panjang / Alas</string>
+    <string name="lebar">Lebar / Tinggi</string>
+    <string name="jenis_bangun">Jenis Bangun</string>
+    <string name="persegi">Persegi</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="rumus">Rumus</string>
+    <string name="luas">Luas</string>
+    <string name="keliling">Keliling</string>
+    <string name="hitung">Hitung</string>
+    <string name="reset">Reset</string>
+    <string name="save">Simpan</string>
+
+    <string name="panjang_invalid">Inputan 1 tidak boleh kosong.</string>
+    <string name="lebar_invalid">Inputan 2 tidak boleh kosong.</string>
+    <string name="jenis_invalid">Pilih jenis bangun datar</string>
+    <string name="rumus_invalid">Pilih rumus</string>
+
+    <string name="judul_persegi">Persegi</string>
+    <string name="judul_segitiga">Segitiga</string>
+    <string name="judul_lingkaran">Lingkaran</string>
+    <string name="rumus_persegi">Rumus Persegi \n Luas = s x s = s2 \n
+        Keliling = 4 x s \n dengan s = panjang sisi persegi</string>
+    <string name="rumus_segitiga">Rumus Segitiga \n Luas = ½ x a x t \n
+        dengan a = panjang alas segitiga, dan t = tinggi segitiga \n
+        Panjang sisi miring segitiga siku-siku dicari dengan rumus Phytagoras (A2 + B2 = C2)</string>
+    <string name="rumus_lingkaran">Rumus Lingkaran \n Luas = π (pi) x jari-jari (r) 2 = πr2</string>
+
+    <string name="lihat_hasil">Detail Rumus</string>
+
+    <string name="copyright">Bangun datar merupakan sebutan untuk bangun-bangun dua dimensi.
+        Bangun datar merupakan sebuah bidang datar yang dibatasi oleh garis lurus ataupun garis lengkung.
+        \n\nCopyright © 2021 Keysar Ayodyanoryza</string>
+
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="fragment_home">Home</string>
+
+    <string name="bagikan">Bagikan</string>
+
+    <string name="bagikan_template">Inputan 1: %1$s kg\nInputan: %2$s \n
+        Jenis Bangun Datar: %3$s\n\n%4$s\n%5$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="daftar_universitas">Daftar Universitas</string>
+    <string name="simpan_data">Simpan Data</string>
+    <string name="belum_ada_data">Belum ada data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="histori">Histori</string>
+
+    <string name="hapus_histori">Hapus Histori</string>
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+</resources>
